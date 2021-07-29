@@ -7,7 +7,7 @@ statdes <- function(x){
   #Histogram
   hist(x, col = rainbow(30))
   #Boxplot
-  boxplot(x, col = 'grenn')
+  boxplot(x, col = 'green')
   par(mfrow=c(1, 1))
   #Ringkasan Statistik
   data.frame(min = min(x),
